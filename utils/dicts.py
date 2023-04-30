@@ -8,5 +8,4 @@ def get_val(collection, key, default='git'):
     :param default: дефолтное значение
     :return: значение словаря по ключу
     """
-    pass
-
+    return collection[key]
